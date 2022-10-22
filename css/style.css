@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 600px) {
+
+.imagem{
+    display: none;
+}
+
+.header{
+    background-color: red;
+    visibility: visible;
+
+}
+
+.home{
+    background-color: blue;
+    visibility: visible;
+}
+
+.menu{
+    background-color: aquamarine;
+    visibility: visible;
+}
+
+.info{
+    background-color: sandybrown;
+    visibility: visible;
+}
+
+.rodape{
+    background-color: tan;
+    visibility: visible;
+}
+
+.imagem-dispositivo{
+    display: none;
+}
+
+}
+
+.imagem-dispositivo{
+    width: 100%;
+}

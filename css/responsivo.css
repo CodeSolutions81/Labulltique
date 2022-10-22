@@ -1,0 +1,10 @@
+@media screen and (min-width: 500px) {
+    .geral{
+        display: none;
+    }
+    .imagem{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
