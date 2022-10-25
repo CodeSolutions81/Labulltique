@@ -5,25 +5,44 @@
     display: none;
 }
 
-.header{
-    background-color: red;
-    visibility: visible;
-
+.header div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 .home{
-    background-color: blue;
-    visibility: visible;
+    background-color: white;
+    display: flex;
+    justify-content: center
+}
+
+.home span{
+    display: flex;
+
 }
 
 .menu{
-    background-color: aquamarine;
-    visibility: visible;
+    background-image: url(/img/background-carne.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu div{
+    color: black;
+    display: grid; 
+    justify-content: center;
+    padding: 12%;
+    margin-bottom: 20%;
 }
 
 .info{
     background-color: sandybrown;
-    visibility: visible;
 }
 
 .rodape{
@@ -33,6 +52,28 @@
 
 .imagem-dispositivo{
     display: none;
+}
+
+.box p {
+    color: white;
+    display: contents;
+}
+
+.span-box{
+    display: flex;
+    margin-top: 7px;
+    border: solid;
+    color: rgb(171 96 96);
+    border-radius: 20%;
+    background-color: black;
+}
+
+.span-box:hover{
+    color: brown;
+}
+
+.fa-beer-mug{
+    color: white;
 }
 
 }
