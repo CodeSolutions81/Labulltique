@@ -1,0 +1,24 @@
+.grid{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2,100px);
+    grid-column-gap: 15%;
+    grid-row-gap:30%;
+}
+
+.box{
+    border-radius: 50%;
+    
+}
+
+.box img{
+    width: 110px;
+    height: 110px;
+    border-radius: 20%;
+    border: solid;
+    border-color: rgb(171, 96, 96);
+}
+
+.info i{
+    color: aqua;
+}
