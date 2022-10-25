@@ -14,10 +14,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp://codesolutions81.tech
-        username: u198691148
-        password: R3nat42104!
-        server-dir: /public_html/labulltique/
+        server: ${{ secrets.ftp_host }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        server-dir: domains/codesolutions81.tech/public_html/labulltique/
 
         # server: ${{ secrets.ftp_host }}
         # username: ${{ secrets.ftp_user }}
