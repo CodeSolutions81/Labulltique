@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp:codesolutions81.tech
+        server: https://br-files.hostinger.com.br/
         username: u198691148
         password: R3nat42104!
         server-dir: public_html/workspace/
