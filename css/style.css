@@ -46,8 +46,11 @@
 }
 
 .rodape{
-    background-color: tan;
     visibility: visible;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    justify-items: center;
 }
 
 .imagem-dispositivo{
@@ -74,6 +77,26 @@
 
 .fa-beer-mug{
     color: white;
+}
+
+.logo-cs{
+    background-color: antiquewhite;
+    justify-items: center;
+    display: grid;
+}
+
+.logo-cs p{
+    font-size: 10px;
+}
+
+.logo-cs1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-cs img{
+    width: 15%;
 }
 
 }
