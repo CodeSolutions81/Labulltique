@@ -17,7 +17,7 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: domains/codesolutions81.tech/public_html/labulltique/
+        server-dir: domains/code-solutions.tech/public_html/labulltiquedecarne/
 
         # server: ${{ secrets.ftp_host }}
         # username: ${{ secrets.ftp_user }}
