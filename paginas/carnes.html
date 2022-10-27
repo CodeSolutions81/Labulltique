@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/botoes.js"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsivo.css">
     <link rel="stylesheet" href="/css/ajustes.css">
@@ -31,15 +32,27 @@
 </header>
 <body>
 
-    <div>
-        <h1>Menu</h1>
+    <div class="btn-menu">
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button id="btn-espetinho" type="button" class="btn btn-dark" onclick="alterarEspetinho();">Espetinhos</button>
+            <button id="btn-carnes" type="button" class="btn btn-dark" onclick="alterarCarnes();">Carnes</button>
+          
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/index.html">Home</a></li>
+                <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                <li><a class="dropdown-item" href="#">Destilados</a></li>
+                <li><a class="dropdown-item" href="#">Itens</a></li>
+              </ul>
+            </div>
+          </div>
     </div>
 
     <div class="espetos">
-        <img src="/img/Espetos.jpg" alt="">
+        <img id="imagem-principal" src="/img/Espetos.jpg" alt="">
     </div>
-
-
-    <h1>Carnes</h1>
 </body>
 </html>

@@ -2,3 +2,17 @@
     width: 100%;
     height: 100%;
 }
+
+.btn-menu{
+    display: grid;
+    background-color: black;
+}
+
+.btn-menu .dropdown-item{
+    color: white;
+    background-color: black;
+}
+
+html{
+    background-color: black;
+}
