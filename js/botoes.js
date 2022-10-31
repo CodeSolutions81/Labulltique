@@ -1,15 +1,15 @@
 function alterarCarnes(){
-       console.log(document.getElementById("imagem-principal").src="/img/Carnes.jpg")
+       console.log(document.getElementById("imagem-principal").src="/img/Carnes.webp")
 }
 
 function alterarEspetinho(){
-    console.log(document.getElementById("imagem-principal").src="/img/Espetos.jpg")
+    console.log(document.getElementById("imagem-principal").src="/img/Espetos.webp")
 }
 
 function alterarWhiskey(){
-    console.log(document.getElementById("imagem-principal").src="/img/Whiskey.jpg")
+    console.log(document.getElementById("imagem-principal").src="/img/Whiskey.webp")
 }
 
 function alterarDestilados(){
- console.log(document.getElementById("imagem-principal").src="/img/Destilados-Drink.jpg")
+ console.log(document.getElementById("imagem-principal").src="/img/Destilados-Drink.webp")
 }
