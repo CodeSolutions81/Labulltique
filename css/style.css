@@ -101,7 +101,7 @@
 }
 
 .box p {
-    color: black;
+    color:wheat;
     background-color:#795548;
     border: solid #9a8282;
     font-family: monospace;
@@ -141,6 +141,11 @@
 
 .logo-cs1 img{
     width: 60px;
+}
+
+.destilados{
+    background-color: black;
+    justify-content: center;
 }
 
 }
